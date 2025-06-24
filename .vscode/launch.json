@@ -1,0 +1,22 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: splat-3dtiles",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./main.py",
+            "console": "integratedTerminal",
+            "python": "D:/Python39/python.exe",
+            "args": [
+                "--input", "./data/NNU_1/splats", 
+                "--output", "./data/NNU_1/3dtiles",
+                "--enu_origin", "118.91083364082562", "32.116922266350315",
+                "--tile_zoom", "20",                
+            ],
+        }
+    ]
+}
