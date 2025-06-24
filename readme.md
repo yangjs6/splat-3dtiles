@@ -4,6 +4,13 @@
 
 splat-3dtiles 是一款将高斯点云转换为 Cesium 3D Tiles 格式的工具。
 
+## 效果展示
+
+- 使用 https://github.com/yangjs6/mapbox-3d-tiles， 加载大范围 3dgs，点击图片，可跳转到 b 站查看相关视频。
+
+[![](https://i0.hdslb.com/bfs/archive/0b195aebb064cd5b2222faeda00e94308dc4dea6.jpg@672w_378h_1c.webp)](https://www.bilibili.com/video/BV1qsK3z4Eo5/)
+
+
 ## 數據要求
 僅支持 .splat 數據文件，僅支持 z 向上，且以 ENU 坐标系存储。
 暫不支持平移、旋轉、缩放等操作，如果需要，可以先使用其他工具进行转换。
